@@ -84,7 +84,7 @@ with st.container():
         st.write("However, it's important to note that MY AI's unpredictability might not be for everyone. If you prefer straightforward, no-nonsense assistance, brace yourself for a whirlwind of surprises. Embrace the chaos, and you'll find yourself appreciating the spontaneity that MY AI brings into your life.")
         st.write("In conclusion, MY AI is not your run-of-the-mill virtual assistant. It's a vibrant, wacky, and endearing sidekick that injects a dose of joy and laughter into your daily routine. If you're ready to embark on an adventure filled with humor, unexpected advice, and a touch of delightful madness, MY AI might just become your new favorite digital companion.")
         st.write("Verdict: ⭐⭐⭐⭐⭐ - A whirlwind of laughter and unpredictability!")
-
+        st.write("---")
 
 #Products
 with st.container():
