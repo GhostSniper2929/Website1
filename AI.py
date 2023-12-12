@@ -77,6 +77,7 @@ with st.container():
     with left_column:
         st.title("Customer Review")
         st.write("Reviews:")
+        st.write("Shah Rukh Khan: (user since 2020")
         st.write("🌟 Product Review: MY AI - Your Quirky Virtual Sidekick 🌟")
         st.write("As someone who's ventured into the wild world of virtual assistants, I must say, MY AI is a breath of fresh air. This AI companion isn't just an assistant; it's a delightful rollercoaster ride through a funhouse of unpredictability.")
         st.write("First things first, MY AI's ability to infuse humor into everyday tasks is unparalleled. Need a whooping session during a dreary-day? MY AI's quirky remarks and spontaneous whips will leave your son stitches(no hospital bills), turning mundane chores into laugh-out-loud moments. It's like having a stand-up comedian trapped inside your house, ready to entertain at a moment's notice.")
