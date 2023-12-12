@@ -74,7 +74,6 @@ with st.container():
         
 with st.container():
     st.write("---")
-    left_column, right_column = st.columns(2)
     with left_column:
         st.title("Customer Review")
         st.write("Reviews:")
@@ -84,9 +83,6 @@ with st.container():
         st.write("However, it's important to note that MY AI's unpredictability might not be for everyone. If you prefer straightforward, no-nonsense assistance, brace yourself for a whirlwind of surprises. Embrace the chaos, and you'll find yourself appreciating the spontaneity that MY AI brings into your life.")
         st.write("In conclusion, MY AI is not your run-of-the-mill virtual assistant. It's a vibrant, wacky, and endearing sidekick that injects a dose of joy and laughter into your daily routine. If you're ready to embark on an adventure filled with humor, unexpected advice, and a touch of delightful madness, MY AI might just become your new favorite digital companion.")
         st.write("Verdict: ⭐⭐⭐⭐⭐ - A whirlwind of laughter and unpredictability!")
-    with right_column:
-        img = Image.open('human.png')
-        st.image(img)
 
 
 #Products
@@ -95,15 +91,13 @@ with st.container():
     st.header("Tis the season for you!")
     st.write("Reward Yourself with the New My AI 2.0 this christmas!")
     st.write("##")
-    text_column = st.columns((1,2))
-    with text_column:
-        st.subheader("Introducing My AI 2.0 – Because One Crazy AI Wasn't Enough! ")
-        st.write("Tired of the same old, predictable AI assistants? Brace yourself, because My AI 2.0 is here to take chaos to a whole new level! If you thought My AI was whippy, get ready to meet its unpredictable, scrumptious, and absolutely whipalicious.")
-        st.write("Ever dreamt of having a personal assistant who moonlights as a natural dancer or whipper? Look no further! My AI 2.0 is the wacky, off-the-wall, and sometimes accidentally profound AI whipper you never knew you desperately needed.")
-        st.write("Need advice on handling tough situations with your beta? My AI 2.0 will suggest whipping your son with interpretive dance and a beating beat. Lost in the sauce with your son? My AI 2.0 will offer solutions ranging from locking him to his homework to becoming a full blown whipper.")
-        st.write("But wait, there's more! My AI 2.0 comes with a \"Random Dance\" feature that turns every beating into a dancing rollercoaster. One moment, you're discussing his grades, and the next, you see a robot backflipping while whipping your son!")
-        st.write("But hold onto your socks because My AI 2.0 isn't just an AI assistant – it's a whirlwind adventure waiting to happen. Get yours today 25% off and prepare for a lifetime supply of laughter, mind-boggling dance, and sounds of pure whipping.")
-        st.write("[Order Now >](https://www.althumans.com/humanoid-robots.html)")
+    st.subheader("Introducing My AI 2.0 – Because One Crazy AI Wasn't Enough! ")
+    st.write("Tired of the same old, predictable AI assistants? Brace yourself, because My AI 2.0 is here to take chaos to a whole new level! If you thought My AI was whippy, get ready to meet its unpredictable, scrumptious, and absolutely whipalicious.")
+    st.write("Ever dreamt of having a personal assistant who moonlights as a natural dancer or whipper? Look no further! My AI 2.0 is the wacky, off-the-wall, and sometimes accidentally profound AI whipper you never knew you desperately needed.")
+    st.write("Need advice on handling tough situations with your beta? My AI 2.0 will suggest whipping your son with interpretive dance and a beating beat. Lost in the sauce with your son? My AI 2.0 will offer solutions ranging from locking him to his homework to becoming a full blown whipper.")
+    st.write("But wait, there's more! My AI 2.0 comes with a \"Random Dance\" feature that turns every beating into a dancing rollercoaster. One moment, you're discussing his grades, and the next, you see a robot backflipping while whipping your son!")
+    st.write("But hold onto your socks because My AI 2.0 isn't just an AI assistant – it's a whirlwind adventure waiting to happen. Get yours today 25% off and prepare for a lifetime supply of laughter, mind-boggling dance, and sounds of pure whipping.")
+    st.write("[Order Now >](https://www.althumans.com/humanoid-robots.html)")
 
 #contact
 if selected == "Contact":
