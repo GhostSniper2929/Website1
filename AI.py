@@ -98,7 +98,7 @@ with st.container():
     st.header("Tis the season for you!")
     st.write("Reward Yourself with the New My AI 2.0 this christmas!")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    text_column = st.columns((1,2))
     with text_column:
         st.subheader("Introducing My AI 2.0 – Because One Crazy AI Wasn't Enough! ")
         st.write("Tired of the same old, predictable AI assistants? Brace yourself, because My AI 2.0 is here to take chaos to a whole new level! If you thought My AI was whippy, get ready to meet its unpredictable, scrumptious, and absolutely whipalicious.")
@@ -107,9 +107,6 @@ with st.container():
         st.write("But wait, there's more! My AI 2.0 comes with a \"Random Dance\" feature that turns every beating into a dancing rollercoaster. One moment, you're discussing his grades, and the next, you see a robot backflipping while whipping your son!")
         st.write("But hold onto your socks because My AI 2.0 isn't just an AI assistant – it's a whirlwind adventure waiting to happen. Get yours today 25% off and prepare for a lifetime supply of laughter, mind-boggling dance, and sounds of pure whipping.")
         st.write("[Order Now >](https://www.althumans.com/humanoid-robots.html)")
-    with image_column:
-        img = Image.open('robot2.png')
-        st.image(img)
 
 #contact
 if selected == "Contact":
