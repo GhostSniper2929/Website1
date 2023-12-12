@@ -71,9 +71,6 @@ with st.container():
         st.write("Order your My AI now and buckle up for a rollercoaster ride of relaxation, and occasional whipping! (Warning: May cause uncontrollable laughter, spontaneous dance parties, and a sudden urge to sell all your cleaning supplies cause My AI can do it all for you!!!!.)")
         st.write("##")
         st.write("[Learn More with this video made by one of our founders >](https://drive.google.com/file/d/1PxFGOqDZYCRxfe_pFAeTGcG3WLFoAcHR/view?t=1)")
-        with right_column:
-            img = Image.open('robot.png')
-            st.image(img)
         
 with st.container():
     st.write("---")
